@@ -1,4 +1,4 @@
-# Project Factory
+# Project Factory - Gcloud
 
 ## 0. Prerequisite
 
@@ -111,21 +111,23 @@ Ensure the key is setup correctly by prompting the key file on the shell
 cat `echo ${GOOGLE_CLOUD_KEYFILE_JSON}`
 ```
 
-## 4. Assigning User permissions at the folder level
+## 3 Executing the Gcloud actions
+
+### 3.1 Assigning User permissions at the folder level
 
 ```
 chmod +x iam-data-engineers.sh
 ./iam-data-engineers.sh
 ```
 
-## 5. Assigning Groups permissions at the project level
+### 3.2 Assigning Groups permissions at the project level
 
 ```
 chmod +x iam-group-data-engineers.sh
 ./iam-group-data-engineers.sh
 ```
 
-## 6. Creating a project
+### 3.3 Creating a project
 
 ```
 chmod +x create-project.sh
